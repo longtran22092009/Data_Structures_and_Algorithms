@@ -1,4 +1,4 @@
-# 📚 Data Structure and Algorithms
+# 📚 Data Structures and Algorithms
 Knowledge about data structure and algorithms in C++
 
 ## 📊 Graph
