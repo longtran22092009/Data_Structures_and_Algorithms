@@ -1,5 +1,5 @@
 # 📚 Data-Structure
-Knowledge about data structure in C++
+Knowledge about data structure and algorithms in C++
 
 ## 📊 Graph
 - [Graph Structures & Algorithm](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Graph)
