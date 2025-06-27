@@ -2,7 +2,7 @@
 Knowledge about data structure and algorithms in C++
 
 ## 📊 Graph
-- [Graph Structures & Algorithm](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Graph)
+- [Graph Structures & Algorithms](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Graph)
 
 ## 🌲 Segment Tree
 - Part 1:
@@ -18,7 +18,7 @@ Knowledge about data structure and algorithms in C++
   - [Step 4](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Segment%20Tree/Part%202/Step%204)
 
 ## 🧩 Other algorithms
-- [Mathematics & others algorithms](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Other%20algorithm)
+- [Mathematics & Others algorithms](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Other%20algorithm)
 
 ## 🧠 Practice
 - [AD HOC](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/AD%20HOC%20%E2%9C%94!!!)
