@@ -44,20 +44,23 @@ A curated collection of data structures and algorithmic techniques implemented i
 
 ### 📚 Other Algorithms
 - [Mathematics & Miscellaneous](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Other%20algorithm)
+- [My Code Template](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/Code%20Template.cpp)
 
 ---
 
 ## 🧪 Practice Problems
-
 ### ✅ Practice:
 - [AD HOC](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/AD%20HOC%20%E2%9C%94!!!)
 - [GAME](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/GAME%20%E2%9C%94)
-- [THAM LAM (Greedy)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/THAM%20LAM%20%E2%9C%94)
-- [TO HOP (Combinatorics)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/TO%20HOP%20%E2%9C%94!!!)
-- [TWO POINTER](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/TWO%20POINTER%20%E2%9C%94)
-
-### 🔍 VET CAN (Brute-force)
-- [Rating 1200–1600](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/VET%20CAN%20%E2%9C%94/Rating%201200-1600)
+- [GREEDY (THAM LAM)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/THAM%20LAM%20%E2%9C%94)
+- [COMBINATORICS (TO HOP)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/TO%20HOP%20%E2%9C%94!!!)
+- [TWO POINTER (HAI CON TRO)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/TWO%20POINTER%20%E2%9C%94)
+- [BRUTE-FORCE (VET CAN)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/VET%20CAN%20%E2%9C%94)
+- [RECURSION (DE QUY)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/DE%20QUY)
+- [GRAPH (DO THI)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/DO%20THI)
+- [DP (QUY HOACH DONG)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/DP)
+- [SLIDING WINDOW (CUA SO TRUOT)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/SLIDING%20WINDOW)
+- [SWEEP LINE (QUET TRUC)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/SWEEP%20LINE%20✔)
 
 ---
 
