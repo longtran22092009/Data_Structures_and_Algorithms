@@ -5,6 +5,29 @@ A curated collection of data structures and algorithmic techniques implemented i
 ---
 
 ## 📁 Structure Overview
+This repository is divided into two main parts:
+
+### 🔹 `New Knowledge/` – Theory & Templates
+This section includes **well-structured C++ implementations** and learning content for various algorithmic topics. Each folder represents a topic, such as:
+
+- **Graph**: BFS, DFS, Dijkstra, Topo sort, etc.
+- **Segment Tree**: Codeforces Edu-based step-by-step segments
+- **Binary Search Tree**: Insertion, traversal, etc.
+- **Dynamic Programming**: Knapsack variations, Bitmask DP, etc.
+- **Bit Manipulation, Recursion, Binary Search, DSU, Sliding Window, Sorting**: Fundamental techniques used in contests
+- **Other Algorithms**: Math tricks, special topics
+- **Code Template**: Prewritten macros and setup for competitive programming
+
+---
+
+### 🔸 `Luyen tap/` – Practice by Category
+This section includes real coding problems organized by **algorithm type**, helping you practice specific skills:
+
+- **AD HOC**, **GREEDY**, **TWO POINTER**, **BRUTE-FORCE**, **GRAPH**, **RECURSION**
+- Advanced patterns: **SLIDING WINDOW**, **SWEEP LINE**, **DP**
+- Each folder contains actual problems (often from online judges), plus solutions in C++
+
+---
 
 ### 📊 Graph
 - [Graph Structures & Algorithms](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Graph)
@@ -60,7 +83,7 @@ A curated collection of data structures and algorithmic techniques implemented i
 - [GRAPH (DO THI)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/DO%20THI)
 - [DP (QUY HOACH DONG)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/DP)
 - [SLIDING WINDOW (CUA SO TRUOT)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/SLIDING%20WINDOW)
-- [SWEEP LINE (QUET TRUC)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/SWEEP%20LINE%20✔)
+- [SWEEP LINE (DUONG QUET)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/SWEEP%20LINE%20✔)
 
 ---
 
