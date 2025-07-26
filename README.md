@@ -1,5 +1,3 @@
-![GitHub stars](https://img.shields.io/github/stars/longtran22092009/Data_Structures_and_Algorithms?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/longtran22092009/Data_Structures_and_Algorithms)
 # 💻 Data Structures and Algorithms
 A curated collection of data structures and algorithmic techniques implemented in **C++**, organized by topic with practice problems and structured learning paths.
 
