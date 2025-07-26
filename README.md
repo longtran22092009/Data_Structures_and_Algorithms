@@ -83,8 +83,7 @@ This section includes real coding problems organized by **algorithm type**, help
 
 ---
 
-## 🧪 Practice Problems
-### ✅ Practice:
+## ✅ Practice Problems
 - [AD HOC](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/AD%20HOC%20%E2%9C%94!!!)
 - [GAME](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/GAME%20%E2%9C%94)
 - [GREEDY (THAM LAM)](https://github.com/longtran22092009/Data_Structures_and_Algorithms/tree/main/Luyen%20tap/THAM%20LAM%20%E2%9C%94)
