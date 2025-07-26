@@ -77,7 +77,7 @@ This section includes real coding problems categorized by **algorithm type**, he
 ## 🧠 Dynamic Programming
 
 <details>
-<summary>🧠 View DP Files</summary>
+<summary>🧠 View DP Variations</summary>
 
 - [0-1 Knapsack](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/New%20Knowledge/Dynamic%20Programming/0-1%20Knapsack.cpp)  
 - [Bitmask DP](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/New%20Knowledge/Dynamic%20Programming/Bitmask%20DP.cpp)  
