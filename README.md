@@ -5,14 +5,14 @@ A curated collection of data structures and algorithmic techniques implemented i
 ---
 
 ## 📚 Table of Contents
-- [Structure Overview](#structure-overview)
-- [Graph](#graph)
-- [Tree Algorithms](#tree-algorithms)
-- [Dynamic Programming](#dynamic-programming)
-- [Other Algorithms](#other-algorithms)
-- [Practice Problems](#practice-problems)
-- [Contribution](#contribution)
-- [Contact](#contact)
+- [Structure Overview](#-structure-overview)
+- [Graph](#-graph)
+- [Tree Algorithms](#-tree-algorithms)
+- [Dynamic Programming](#-dynamic-programming)
+- [Other Algorithms](#-other-algorithms)
+- [Practice Problems](#-practice-problems)
+- [Contribution](#-contribution)
+- [Contact](#-contact)
 
 ---
 
