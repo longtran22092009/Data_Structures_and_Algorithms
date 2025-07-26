@@ -21,7 +21,7 @@ A curated collection of data structures and algorithmic techniques implemented i
 This repository is divided into two main parts:
 
 ### 🔹 `New Knowledge/` – Theory & Templates
-This section contains **well-structured C++ implementations** and learning content for various algorithmic topics. Each folder covers a specific topic such as:
+This section contains **well-structured C++ implementations** and learning content for various algorithmic topics. Each folder covers specific topics such as:
 
 - **Graph**: BFS, DFS, Dijkstra, Topological Sort, etc.
 - **Segment Tree**: Step-by-step lessons based on Codeforces EDU
@@ -34,8 +34,8 @@ This section contains **well-structured C++ implementations** and learning conte
 ### 🔸 `Luyen tap/` – Practice by Category
 This section includes real coding problems categorized by **algorithm type**, helping you strengthen specific skills:
 
-- Fundamental categories: **AD HOC**, **GREEDY**, **TWO POINTER**, **BRUTE-FORCE**, **GRAPH**, **RECURSION**
-- Advanced techniques: **SLIDING WINDOW**, **SWEEP LINE**, **DP**
+- Fundamental categories: **AD HOC**, **BRUTE-FORCE**, **GREEDY**, **RECURSION**
+- Advanced techniques: **DP**, **GRAPH**, **TWO POINTER**, **SLIDING WINDOW**, **SWEEP LINE**
 - Each folder contains real problems (mostly from online judges) and clean C++ solutions
 
 ---
@@ -125,10 +125,10 @@ This section includes real coding problems categorized by **algorithm type**, he
 
 ## 🚀 Contribution
 
-Feel free to fork this repository, explore the content, and contribute by adding:
-- New problems
-- Optimized solutions
-- Notes or explanations
+Feel free to fork this repository, explore the content, and contribute by:
+- Adding new problems
+- Optimizing existing solutions
+- Writing explanations or insights
 
 ---
 
