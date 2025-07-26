@@ -4,6 +4,18 @@ A curated collection of data structures and algorithmic techniques implemented i
 
 ---
 
+## 📚 Table of Contents
+- [Structure Overview](#-structure-overview)
+- [Graph](#-graph)
+- [Tree Algorithms](#-tree-algorithms)
+- [Dynamic Programming](#-dynamic-programming)
+- [Other Algorithms](#-other-algorithms)
+- [Practice Problems](#-practice-problems)
+- [Contribution](#-contribution)
+- [Contact](#-contact)
+
+---
+
 ## 📁 Structure Overview
 This repository is divided into two main parts:
 
@@ -66,8 +78,8 @@ This section includes real coding problems organized by **algorithm type**, help
 ---
 
 ### 📚 Other Algorithms
-- [Mathematics & Miscellaneous](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Other%20algorithm)
-- [My Code Template](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/Code%20Template.cpp)
+- 🧮 [Mathematics & Miscellaneous](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Other%20algorithm)
+- ⚙️ [My Code Template](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/Code%20Template.cpp)
 
 ---
 
