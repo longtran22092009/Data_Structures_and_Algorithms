@@ -1,5 +1,6 @@
+![GitHub stars](https://img.shields.io/github/stars/longtran22092009/Data_Structures_and_Algorithms?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/longtran22092009/Data_Structures_and_Algorithms)
 # 💻 Data Structures and Algorithms
-
 A curated collection of data structures and algorithmic techniques implemented in **C++**, organized by topic with practice problems and structured learning paths.
 
 ---
@@ -32,7 +33,7 @@ This section contains **well-structured C++ implementations** and learning conte
 - **Code Template**: Prewritten macros and setup for contests
 
 ### 🔸 `Luyen tap/` – Practice by Category
-This section includes real coding problems categorized by **algorithm type**, helping you strengthen specific skills:
+This section includes real coding problems categorized by **algorithm type**, helping you master specific skills:
 
 - Fundamental categories: **AD HOC**, **BRUTE-FORCE**, **GREEDY**, **RECURSION**
 - Advanced techniques: **DP**, **GRAPH**, **TWO POINTER**, **SLIDING WINDOW**, **SWEEP LINE**
