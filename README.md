@@ -1,6 +1,6 @@
 # 💻 Data Structures and Algorithms
 
-A curated collection of data structures and algorithmic techniques implemented in **C++**, organized by topics with practice problems and structured learning paths.
+A curated collection of data structures and algorithmic techniques implemented in **C++**, organized by topic with practice problems and structured learning paths.
 
 ---
 
@@ -21,22 +21,22 @@ A curated collection of data structures and algorithmic techniques implemented i
 This repository is divided into two main parts:
 
 ### 🔹 `New Knowledge/` – Theory & Templates
-This section includes **well-structured C++ implementations** and learning content for various algorithmic topics. Each folder represents a topic, such as:
+This section contains **well-structured C++ implementations** and learning content for various algorithmic topics. Each folder covers a specific topic such as:
 
-- **Graph**: BFS, DFS, Dijkstra, Topo sort, etc.
-- **Segment Tree**: Codeforces Edu-based step-by-step segments
-- **Binary Search Tree**: Insertion, traversal, etc.
-- **Dynamic Programming**: Knapsack variations, Bitmask DP, etc.
-- **Bit Manipulation, Recursion, Binary Search, DSU, Sliding Window, Sorting**: Core techniques for contests
-- **Other Algorithms**: Math tricks, special topics
-- **Code Template**: Prewritten macros and setup for competitive programming
+- **Graph**: BFS, DFS, Dijkstra, Topological Sort, etc.
+- **Segment Tree**: Step-by-step lessons based on Codeforces EDU
+- **Binary Search Tree**: Insertion, traversal, and more
+- **Dynamic Programming**: Knapsack variations, Bitmask DP, and more
+- **Other Techniques**: Bit Manipulation, Recursion, Binary Search, DSU, Sliding Window, Sorting
+- **Miscellaneous**: Math tricks, optimizations, special topics
+- **Code Template**: Prewritten macros and setup for contests
 
 ### 🔸 `Luyen tap/` – Practice by Category
-This section includes real coding problems organized by **algorithm type**, helping you master specific skills:
+This section includes real coding problems categorized by **algorithm type**, helping you strengthen specific skills:
 
-- Common types: **AD HOC**, **GREEDY**, **TWO POINTER**, **BRUTE-FORCE**, **GRAPH**, **RECURSION**
-- Advanced patterns: **SLIDING WINDOW**, **SWEEP LINE**, **DP**
-- Each folder contains real problems (often from OJs), along with C++ solutions
+- Fundamental categories: **AD HOC**, **GREEDY**, **TWO POINTER**, **BRUTE-FORCE**, **GRAPH**, **RECURSION**
+- Advanced techniques: **SLIDING WINDOW**, **SWEEP LINE**, **DP**
+- Each folder contains real problems (mostly from online judges) and clean C++ solutions
 
 ---
 
@@ -48,7 +48,7 @@ This section includes real coding problems organized by **algorithm type**, help
 ## 🌳 Tree Algorithms
 
 <details>
-<summary>🌴 Segment Tree (Codeforces Edu)</summary>
+<summary>🌴 Segment Tree (Codeforces EDU)</summary>
 
 - [Part 1 (Lesson 4)](https://codeforces.com/edu/course/2/lesson/4)
   - [Step 1](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Segment%20Tree/Part%201/Step%201)
@@ -96,13 +96,13 @@ This section includes real coding problems organized by **algorithm type**, help
 <summary>📚 View Additional Topics</summary>
 
 - 🧮 [Mathematics & Miscellaneous](https://github.com/longtran22092009/Data-Structure/tree/main/New%20Knowledge/Other%20algorithm)  
-- ⚙️ [My Code Template](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/Code%20Template.cpp)
+- ⚙️ [Code Template](https://github.com/longtran22092009/Data_Structures_and_Algorithms/blob/main/Code%20Template.cpp)
 
 </details>
 
 ---
 
-## 🧪 Practice Problems
+## 🎯 Practice Problems
 
 <details>
 <summary>✅ View Practice Categories</summary>
@@ -125,7 +125,7 @@ This section includes real coding problems organized by **algorithm type**, help
 
 ## 🚀 Contribution
 
-Feel free to fork this repo, practice, and contribute by adding:
+Feel free to fork this repository, explore the content, and contribute by adding:
 - New problems
 - Optimized solutions
 - Notes or explanations
@@ -139,4 +139,4 @@ Maintained by [@longtran22092009](https://github.com/longtran22092009)
 
 ---
 
-## ⭐ If you find this helpful, don’t forget to give a star!
+## ⭐ If you find this helpful, please consider giving it a star!
