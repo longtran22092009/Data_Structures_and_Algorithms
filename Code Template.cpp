@@ -42,8 +42,9 @@ signed main() {
     }
     Longgggg
 
-    ll t = 1;
+    int t = 1;
     // cin >> t;
     while (t--) solve();
     return 0;
 }
+
