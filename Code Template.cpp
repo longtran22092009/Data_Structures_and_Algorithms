@@ -12,8 +12,8 @@ using namespace std;
 #define se second
 #define ll long long
 #define endl '\n'
-#define sz(x) (int)size(x)
-#define all(x) begin(x), end(x)
+#define sz(x) (int)x.size()
+#define all(x) x.begin(), x.end()
 #define mod(x, k) ((((x) % (k)) + (k)) % (k))
 #define compress(c) sort(all(c)); c.erase(unique(all(c)), c.end());
 #define Longgggg ios_base::sync_with_stdio(0); cin.tie(0);
@@ -42,9 +42,8 @@ signed main() {
     }
     Longgggg
 
-    int t = 1;
+    ll t = 1;
     // cin >> t;
     while (t--) solve();
     return 0;
 }
-
