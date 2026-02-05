@@ -23,6 +23,7 @@ using namespace std;
 #define IN "A.in"
 #define OUT "A.out"
 #define DEBUG "debug.out"
+#define cerr if (false) cerr
 //==================//
 
 const int INF = (int) 1e9+5;
@@ -47,3 +48,4 @@ signed main() {
     while (t--) solve();
     return 0;
 }
+
