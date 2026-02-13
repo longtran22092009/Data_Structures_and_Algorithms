@@ -20,7 +20,7 @@ void Dijkstra(int s, int t) {
     d[s] = 0;
     pre[s] = s;
 
-    // pair <int, int> {dis, to_node};
+    // pair <int, int> {dis, from_node};
     priority_queue <pair <int, int>, vector <pair <int, int>>, greater <pair <int, int>>> q;
     q.push({0, s});
 
@@ -78,4 +78,5 @@ signed main() {
     // ll t; cin >> t;
     // while (t--)
     solve();
+
 }
