@@ -41,7 +41,7 @@ void dfs(int u, int pre) {
         if (!num[v]) {
             dfs(v, u);
             low[u] = min(low[u], low[v]);
-            if (low[v] == num[v]) ++bridge; // Hai node có thể đến với nhau không qua nét đứt
+            if (low[v] > num[u]) ++bridge; // Hai node có thể đến với nhau không qua nét đứt
             ++child;
             
             if (u == pre) {
@@ -84,3 +84,4 @@ signed main() {
     // while (t--)
     solve();
 }
+
