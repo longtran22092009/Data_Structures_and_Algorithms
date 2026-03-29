@@ -2,19 +2,19 @@
 using namespace std;
 //====== BITWISE ======//
 #define MASK(i) (1LL << (i))
-#define BIT(x, i) (((x) >> (i)) & 1)
+#define BIT(x, i) (((x) >> (i)) & 1LL)
 #define ON(x, i) ((x) | MASK(i))
 #define OFF(x, i) ((x) & ~MASK(i))
 #define LASTBIT(mask) ((mask) & -(mask))
-#define SUBMASK(sub, mask) for (int sub = (mask); sub >= 1; sub = (sub - 1) & (mask))
-//====== OTHER ======//
+#define SUBMASK(sub, mask) for (ll sub = (mask); sub >= 1; sub = (sub - 1) & (mask))
+//====== OTHERS ======//
+#define ll long long
 #define fi first
 #define se second
-#define ll long long
 #define endl '\n'
 #define sz(x) (int)x.size()
 #define all(x) x.begin(), x.end()
-#define mod(x, k) ((((x) % (k)) + (k)) % (k))
+#define modulo(x, k) ((((x) % (k)) + (k)) % (k))
 #define compress(c) sort(all(c)); c.erase(unique(all(c)), c.end());
 #define Longgggg ios_base::sync_with_stdio(0); cin.tie(0);
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
@@ -23,7 +23,7 @@ using namespace std;
 #define IN "A.in"
 #define OUT "A.out"
 #define DEBUG "debug.out"
-#define cerr if (false) cerr
+//#define cerr if (false) cerr
 //==================//
 
 const int INF = (int) 1e9+5;
@@ -32,7 +32,7 @@ const ll MOD = (ll) 1e9+7;
 const int mxN = (int) 1e5+5;
 
 void solve() {
-    
+    cout << __cplusplus << endl;
 }
 
 signed main() {
@@ -41,11 +41,10 @@ signed main() {
         freopen(OUT, "w", stdout);
         freopen(DEBUG, "w", stderr);
     }
-    Longgggg
+    Longgggg;
 
     ll t = 1;
     // cin >> t;
     while (t--) solve();
     return 0;
 }
-
