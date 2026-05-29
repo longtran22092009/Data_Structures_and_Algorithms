@@ -35,7 +35,7 @@ void solve() {
     cout << __cplusplus << endl;
 }
 
-signed main() {
+int main() {
     if (fopen(IN, "r")) {
         freopen(IN, "r", stdin);
         freopen(OUT, "w", stdout);
