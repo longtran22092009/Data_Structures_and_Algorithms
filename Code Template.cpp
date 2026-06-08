@@ -26,13 +26,13 @@ using namespace std;
 //#define cerr if (false) cerr
 //==================//
 
-const int INF = (int) 1e9+5;
-const ll LINF = (ll) 1e18;
-const ll MOD = (ll) 1e9+7;
-const int mxN = (int) 1e5+5;
+const int INF = 1e9+5;
+const ll LINF = 1e18;
+const ll MOD = 1e9+7;
+const int mxN = 1e5+5;
 
 void solve() {
-    cout << __cplusplus << endl;
+
 }
 
 int main() {
@@ -48,3 +48,11 @@ int main() {
     while (t--) solve();
     return 0;
 }
+
+/*
+#------ INPUT -------#
+
+#------ OUTPUT ------#
+
+#--------------------#
+*/
