@@ -20,8 +20,9 @@ using namespace std;
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
 #define FORD(i, a, b) for (int i = (a); i >= (b); --i)
 //====== FILE ======//
-#define IN "A.in"
-#define OUT "A.out"
+#define NAME "A"
+#define IN NAME".in"
+#define OUT NAME".out"
 #define DEBUG "debug.out"
 //#define cerr if (false) cerr
 //==================//
