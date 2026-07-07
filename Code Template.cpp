@@ -14,11 +14,16 @@ using namespace std;
 #define endl '\n'
 #define sz(x) (int)x.size()
 #define all(x) x.begin(), x.end()
-#define modulo(x, k) ((((x) % (k)) + (k)) % (k))
 #define compress(c) sort(all(c)); c.erase(unique(all(c)), c.end());
 #define Longgggg ios_base::sync_with_stdio(0); cin.tie(0);
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
 #define FORD(i, a, b) for (int i = (a); i >= (b); --i)
+
+template <typename T>
+inline T modulo(T x, T k) {
+    T res = x % k;
+    return (res < 0) ? (res + k) : res;
+}
 //====== FILE ======//
 #define NAME "A"
 #define IN NAME".in"
