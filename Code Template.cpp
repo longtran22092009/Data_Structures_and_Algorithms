@@ -9,6 +9,8 @@ using namespace std;
 #define SUBMASK(sub, mask) for (ll sub = (mask); sub >= 1; sub = (sub - 1) & (mask))
 //====== OTHERS ======//
 #define ll long long
+#define uint unsigned int
+#define ull unsigned long long
 #define fi first
 #define se second
 #define endl '\n'
