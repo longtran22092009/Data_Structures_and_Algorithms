@@ -26,6 +26,32 @@ inline T modulo(T x, T k) {
     T res = x % k;
     return (res < 0) ? (res + k) : res;
 }
+
+template <typename T>
+inline T addMod(T x, T y, T m) {
+    x = modulo(x, m);
+    y = modulo(y, m);
+
+    ll res = x + y;
+    return (res >= m ? res - m : res);
+}
+
+template <typename T>
+inline T subMod(T x, T y, T m) {
+    x = modulo(x, m);
+    y = modulo(y, m);
+
+    ll res = x - y;
+    return (res < 0 ? res + m : res);
+}
+
+template <typename T>
+inline T mulMod(T x, T y, T m) {
+    x = modulo(x, m);
+    y = modulo(y, m);
+
+    return (ll)((__int128)x * y % m);
+}
 //====== FILE ======//
 #define NAME "A"
 #define IN NAME".in"
