@@ -29,17 +29,14 @@ inline T modulo(T x, T k) {
     return (res < 0) ? (res + k) : res;
 }
 
-template <typename T>
-inline T addMod(T x, T y, T m) {
+inline ll addMod(ll x, ll y, ll m) {
     x = modulo(x, m);
     y = modulo(y, m);
 
-    ll res = x + y;
-    return (res >= m ? res - m : res);
+    return (x >= m - y ? x - m + y : x + y);
 }
 
-template <typename T>
-inline T subMod(T x, T y, T m) {
+inline ll subMod(ll x, ll y, ll m) {
     x = modulo(x, m);
     y = modulo(y, m);
 
@@ -47,8 +44,7 @@ inline T subMod(T x, T y, T m) {
     return (res < 0 ? res + m : res);
 }
 
-template <typename T>
-inline T mulMod(T x, T y, T m) {
+inline ll mulMod(ll x, ll y, ll m) {
     x = modulo(x, m);
     y = modulo(y, m);
 
