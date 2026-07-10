@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 //====== BITWISE ======//
 #define MASK(i) (1LL << (i))
 #define BIT(x, i) (((x) >> (i)) & 1LL)
@@ -7,7 +8,8 @@ using namespace std;
 #define OFF(x, i) ((x) & ~MASK(i))
 #define LASTBIT(mask) ((mask) & -(mask))
 #define SUBMASK(sub, mask) for (ll sub = (mask); sub >= 1; sub = (sub - 1) & (mask))
-//====== OTHERS ======//
+
+//====== MISC ======//
 #define ll long long
 #define uint unsigned int
 #define ull unsigned long long
@@ -52,6 +54,7 @@ inline T mulMod(T x, T y, T m) {
 
     return (ll)((__int128)x * y % m);
 }
+
 //====== FILE ======//
 #define NAME "A"
 #define IN NAME".in"
