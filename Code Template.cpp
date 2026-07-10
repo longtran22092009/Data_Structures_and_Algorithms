@@ -29,26 +29,29 @@ inline T modulo(T x, T k) {
     return (res < 0) ? (res + k) : res;
 }
 
-inline ll addMod(ll x, ll y, ll m) {
+template <typename T>
+inline T addMod(T x, T y, T m) {
     x = modulo(x, m);
     y = modulo(y, m);
 
     return (x >= m - y ? x - m + y : x + y);
 }
 
-inline ll subMod(ll x, ll y, ll m) {
+template <typename T>
+inline T subMod(T x, T y, T m) {
     x = modulo(x, m);
     y = modulo(y, m);
 
-    ll res = x - y;
+    T res = x - y;
     return (res < 0 ? res + m : res);
 }
 
-inline ll mulMod(ll x, ll y, ll m) {
+template <typename T>
+inline T mulMod(T x, T y, T m) {
     x = modulo(x, m);
     y = modulo(y, m);
 
-    return (ll)((__int128)x * y % m);
+    return (T)((__int128)x * y % m);
 }
 
 //====== FILE ======//
