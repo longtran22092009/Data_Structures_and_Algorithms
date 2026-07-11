@@ -21,7 +21,7 @@ using namespace std;
 #define compress(c) sort(all(c)); c.erase(unique(all(c)), c.end());
 #define Longgggg ios_base::sync_with_stdio(0); cin.tie(0);
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
-#define FORD(i, a, b) for (int i = (a); i >= (b); --i)
+#define ROF(i, a, b) for (int i = (a); i >= (b); --i)
 
 template <typename T>
 inline T modulo(T x, T k) {
