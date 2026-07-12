@@ -7,7 +7,7 @@ using namespace std;
 #define ON(x, i) ((x) | MASK(i))
 #define OFF(x, i) ((x) & ~MASK(i))
 #define LASTBIT(mask) ((mask) & -(mask))
-#define SUBMASK(sub, mask) for (ll sub = (mask); sub >= 1; sub = (sub - 1) & (mask))
+#define SUBMASK(sub, mask) for (int sub = (mask); sub >= 1; sub = (sub - 1) & (mask))
 
 //====== MISC ======//
 #define ll long long
