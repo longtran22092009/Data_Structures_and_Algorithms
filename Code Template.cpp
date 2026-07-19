@@ -24,35 +24,35 @@ using ull = unsigned long long;
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
 #define ROF(i, a, b) for (int i = (a); i >= (b); --i)
 
-inline ll norm(ll x) {
-    x %= MOD;
-    if (x < 0) x += MOD;
+inline ll norm(ll x, ll m) {
+    x %= m;
+    if (x < 0) x += m;
     return x;
 }
 
-inline ll addMod(ll x, ll y) {
-    if (x < 0 || x >= MOD) x = norm(x);
-    if (y < 0 || y >= MOD) y = norm(y);
+inline ll addMod(ll x, ll y, ll m) {
+    if (x < 0 || x >= m) x = norm(x, m);
+    if (y < 0 || y >= m) y = norm(y, m);
 
     x += y;
-    if (x >= MOD) x -= MOD;
+    if (x >= m) x -= m;
     return x;
 }
 
-inline ll subMod(ll x, ll y) {
-    if (x < 0 || x >= MOD) x = norm(x);
-    if (y < 0 || y >= MOD) y = norm(y);
+inline ll subMod(ll x, ll y, ll m) {
+    if (x < 0 || x >= m) x = norm(x, m);
+    if (y < 0 || y >= m) y = norm(y, m);
 
     x -= y;
-    if (x < 0) x += MOD;
+    if (x < 0) x += m;
     return x;
 }
 
-inline ll mulMod(ll x, ll y) {
-    if (x < 0 || x >= MOD) x = norm(x);
-    if (y < 0 || y >= MOD) y = norm(y);
+inline ll mulMod(ll x, ll y, ll m) {
+    if (x < 0 || x >= m) x = norm(x, m);
+    if (y < 0 || y >= m) y = norm(y, m);
 
-    return x * y % MOD;
+    return x * y % m;
 }
 
 //====== FILE ======//
