@@ -24,35 +24,35 @@ using ull = unsigned long long;
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
 #define ROF(i, a, b) for (int i = (a); i >= (b); --i)
 
-template <typename T>
-inline T modulo(T x, T k) {
-    T res = x % k;
-    return (res < 0) ? (res + k) : res;
+inline ll norm(ll x) {
+    x %= MOD;
+    if (x < 0) x += MOD;
+    return x;
 }
 
-template <typename T>
-inline T addMod(T x, T y, T m) {
-    x = modulo(x, m);
-    y = modulo(y, m);
+inline ll addMod(ll x, ll y) {
+    if (x < 0 || x >= MOD) x = norm(x);
+    if (y < 0 || y >= MOD) y = norm(y);
 
-    return (x >= m - y ? x - m + y : x + y);
+    x += y;
+    if (x >= MOD) x -= MOD;
+    return x;
 }
 
-template <typename T>
-inline T subMod(T x, T y, T m) {
-    x = modulo(x, m);
-    y = modulo(y, m);
+inline ll subMod(ll x, ll y) {
+    if (x < 0 || x >= MOD) x = norm(x);
+    if (y < 0 || y >= MOD) y = norm(y);
 
-    T res = x - y;
-    return (res < 0 ? res + m : res);
+    x -= y;
+    if (x < 0) x += MOD;
+    return x;
 }
 
-template <typename T>
-inline T mulMod(T x, T y, T m) {
-    x = modulo(x, m);
-    y = modulo(y, m);
+inline ll mulMod(ll x, ll y) {
+    if (x < 0 || x >= MOD) x = norm(x);
+    if (y < 0 || y >= MOD) y = norm(y);
 
-    return (T)((__int128)x * y % m);
+    return x * y % MOD;
 }
 
 //====== FILE ======//
