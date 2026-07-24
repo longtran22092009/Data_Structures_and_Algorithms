@@ -83,6 +83,7 @@ int main() {
     int t = 1;
     // cin >> t;
     while (t--) solve();
+    cerr << "Runtime: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms\n";
     return 0;
 }
 
