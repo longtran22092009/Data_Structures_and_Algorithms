@@ -66,7 +66,7 @@ inline ll mulMod(ll x, ll y, ll m) {
 const int INF = 2e9+5;
 const ll LINF = 4e18;
 const ll MOD = 1e9+7;
-const int mxN = 1e5+5;
+const int mxN = 2e5+5;
 
 void solve() {
 
