@@ -46,9 +46,20 @@ ll Rand(ll L, ll R) {
 void genTest(int type) {
     ofstream inp("input.txt");
 
-    // =========================
-    // CODE SINH TEST Ở ĐÂY
-    // =========================
+    /*
+        Sinh test tại đây.
+
+        Ví dụ:
+
+        int n = Rand(1, 10);
+        inp << n << '\n';
+
+        FOR(i, 1, n) {
+            inp << Rand(1, 100) << " ";
+        }
+
+        inp << '\n';
+    */
 
     inp.close();
 }
@@ -73,7 +84,14 @@ bool generalCheckTest() {
     ifstream ans(BRUTE + ".out");
 
     // Viết checker ở đây nếu cần.
-    return true;
+    // Vi du:
+    string s1, s2;
+    while (out >> s1 && ans >> s2) {
+        if (s1 != s2) return false;
+    }
+
+    // Dung khi 2 file cung ket thuc bang EOF
+    return !(out >> s1 || ans >> s2);
 }
 
 int main() {
@@ -82,6 +100,7 @@ int main() {
 
     if (ONLY_SEED != -1) baseSeed = ONLY_SEED;
     cout << "baseSeed = " << baseSeed << endl;
+    cout.flush();
 
     FOR(tc, 1, NTEST) {
         ull seed;
@@ -94,24 +113,29 @@ int main() {
         genTest(type);
 
         cout << "TEST " << tc << " (seed = " << seed << ", type = " << type << "):\n";
+        cout.flush();
+
         int code1 = system((MAIN + ".exe < input.txt > " + MAIN + ".out").c_str());
-        int code2 = system((BRUTE + ".exe < input.txt > " + BRUTE + ".out").c_str());
 
         if (code1 != 0) {
-            cout << "MAIN RUNTIME ERROR\n";
-            system("copy input.txt bad.inp > nul");
+            cout << "MAIN RUNTIME ERROR (Exit code: " << code1 << ")\n\n";
+            cout.flush();
 
-            cout << "\nINPUT:\n";
+            cout << "INPUT:\n";
+            cout.flush();
             system("type input.txt");
 
             return 0;
         }
 
-        if (code2 != 0) {
-            cout << "BRUTE RUNTIME ERROR\n";
-            system("copy input.txt bad.inp > nul");
+        int code2 = system((BRUTE + ".exe < input.txt > " + BRUTE + ".out").c_str());
 
-            cout << "\nINPUT:\n";
+        if (code2 != 0) {
+            cout << "BRUTE RUNTIME ERROR (Exit code: " << code2 << ")\n";
+            cout.flush();
+
+            cout << "INPUT:\n";
+            cout.flush();
             system("type input.txt");
 
             return 0;
@@ -122,24 +146,28 @@ int main() {
 
         if (!ok) {
             cout << "WRONG ANSWER\n";
-            system("copy input.txt bad.inp > nul");
+            cout.flush();
 
             cout << "\nINPUT:\n";
+            cout.flush();
             system("type input.txt");
 
             cout << "\nMAIN:\n";
+            cout.flush();
             system(("type " + MAIN + ".out").c_str());
 
             cout << "\nBRUTE:\n";
+            cout.flush();
             system(("type " + BRUTE + ".out").c_str());
-
             return 0;
         }
 
         cout << "ACCEPTED\n\n";
+        cout.flush();
         if (ONLY_SEED != -1) break;
     }
 
     cout << "ALL TESTS PASSED :D\n";
+    cout.flush();
     return 0;
 }
