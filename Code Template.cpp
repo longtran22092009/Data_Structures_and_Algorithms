@@ -59,7 +59,7 @@ inline ll mulMod(ll x, ll y, ll m) {
 #define NAME "A"
 #define IN NAME".in"
 #define OUT NAME".out"
-#define DEBUG "debug.out"
+#define DEBUG NAME".err"
 //#define cerr if (false) cerr
 //==================//
 
